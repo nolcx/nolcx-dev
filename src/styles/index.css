@@ -1,0 +1,21 @@
+/* Variables Colores */
+:root {
+  --color-background: #282b30;
+  --color-text: #ffffff;
+  --color-gradient-start: rgba(0, 153, 255, 0.25);
+  --color-gradient-end: rgba(255, 255, 255, 0);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  background-image: radial-gradient(
+    ellipse 80% 80% at 50% -20%,
+    var(--color-gradient-start),
+    var(--color-gradient-end)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
